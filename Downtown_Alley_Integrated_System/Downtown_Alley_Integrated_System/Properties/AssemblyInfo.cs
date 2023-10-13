@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SBIT_3J_OrderingSystem")]
+[assembly: AssemblyTitle("Downtown_Alley_Integrated_System")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SBIT_3J_OrderingSystem")]
+[assembly: AssemblyProduct("Downtown_Alley_Integrated_System")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("951e859b-4589-43d7-a9df-1702550ebb20")]
+[assembly: Guid("0529a7e3-6b1e-43a8-bffd-01830b91650c")]
 
 // Version information for an assembly consists of the following four values:
 //

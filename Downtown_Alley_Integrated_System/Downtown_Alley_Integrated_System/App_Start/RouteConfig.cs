@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace SBIT_3J_OrderingSystem
+namespace Downtown_Alley_Integrated_System
 {
     public class RouteConfig
     {
