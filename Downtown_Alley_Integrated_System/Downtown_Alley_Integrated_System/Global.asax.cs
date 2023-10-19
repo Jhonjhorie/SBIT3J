@@ -9,6 +9,7 @@ namespace Downtown_Alley_Integrated_System
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
