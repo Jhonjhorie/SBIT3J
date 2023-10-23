@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<main aria-labelledby="title">
+
+    <section class="contact">
+        <h1 class="text-center fw-bolder">Contact.</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="text-center mb-4">Get in Touch</h2>
+                    <p class="text-black">Contact me whenever you like. I am always here on the internet ready to respond to your messages, so don't be shy; I won't bite.</p>
+                    <ul class="list-unstyled icons">
+                        <li class="mb-3">
+                            <h4>
+                                <i class="fa fa-user fa-2x"></i>
+                                Name:
+                            </h4>
+                            <p class="text-black">Quiling, Jhon Jhorie</p>
+                        </li>
+
+                        <li class="mb-3">
+                            <h4>
+                                <i class="fa fa-map-marker fa-2x"></i>
+                                Address:
+                            </h4>
+                            <p class="text-black">Quezon City, Philippines</p>
+                        </li>
+                        <li>
+                            <h4>
+                                <i class="fa fa-envelope fa-2x"></i>
+                                Email:
+                            </h4>
+                            <div class="text-black">jhonjhorie@gmail.com</div>
+
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="text-center mb-4">Message Me</h2>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-6">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

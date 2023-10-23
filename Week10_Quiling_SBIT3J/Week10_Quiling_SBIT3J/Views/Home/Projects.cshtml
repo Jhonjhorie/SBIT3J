@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "Projects";
+}
+
+<style>
+    /* Custom CSS for Portfolio Section */
+    .background {
+        background-color: #111;
+        color: #aaa;
+        padding: 60px 0;
+    }
+
+    .exp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .col-4 {
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        background-color: #111;
+        height: 100%;
+    }
+
+        .col-4 video {
+            width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            padding: 10px;
+            border: #ccc 2px solid;
+            border-radius: 10px;
+        }
+
+        .col-4 h2 {
+            color: #aaa;
+        }
+
+        .col-4 p {
+            font-weight: bold;
+            color: #aaa;
+        }
+
+            .col-4 p a {
+                list-style: none;
+                font-weight: bold;
+                color: #aaa;
+            }
+</style>
+
+<!-- Portfolio Section -->
+<section class="background" id="background">
+    <div class="container">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+            <div class="col-4">
+                <h2>My First Portfolio</h2>
+                <video controls muted autoplay loop>
+                    <source src="~/Content/Stock/pers.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                </video>
+                <p>This is the first Personal Portfolio website I made... when I'm creating this, I'm following <a href="https://youtu.be/tcskp-ncN0I">this</a> YouTuber's code line by line until I get familiarized and broaden my understanding about HTML and CSS also JS. And to challenge myself, I merged <a href="https://youtu.be/7UIBIaEZVWw">this</a> portfolio that I also found on YouTube, and I succeeded.</p>
+            </div>
+            <div class="col-4">
+                <h2>My First Web Project</h2>
+                <video controls muted autoplay loop>
+                    <source src="~/Content/Stock/asdasdasd.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+                <p>This is the first website project I did with my groupmates, and this website is where I broadened my understanding of different CSS tags and mechanics. It's really hard because my groupmates also take code from the Internet, so when I compile all of their webpages, it becomes a mess, but I managed to fix it all.</p>
+            </div>
+            <div class="col-4">
+                <h2>My Second Portfolio</h2>
+                <video controls muted autoplay loop>
+                    <source src="~/Content/Stock/2nd%20portfolio.webm" type="audio/webm" />
+                    Your browser does not support the video tag.
+                </video>
+                <p>This is the first website project I did with my groupmates, and this website is where I broadened my understanding of different CSS tags and mechanics. It's really hard because my groupmates also take code from the Internet, so when I compile all of their webpages, it becomes a mess, but I managed to fix it all.</p>
+            </div>
+        </div>
+    </div>
+</section>
